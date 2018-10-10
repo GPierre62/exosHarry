@@ -1,0 +1,153 @@
+/**********  General  **********/
+@font-face{
+	font-family: 'harryp';
+	src: url(../fonts/harryp.woff);
+}
+@font-face{
+	font-family: 'harryp2';
+	src: url(../fonts/harryp2.woff);
+}
+@viewport {
+	width: device-width;
+}
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+#containerMenu{
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.VirePad{
+	padding-right: 0;
+	padding-left: 0;
+}
+/**********  Header  **********/
+header{
+	position: relative;
+	height: 235px;
+	width: 100%;
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+}
+
+.iconRsx a img{
+	width: 90%;
+}
+.logoHP img{
+	width: 100%;
+}
+.numEtTitre{
+	position: absolute;
+	bottom: 0;
+	width: 80%;
+	margin-left: 2%;
+}
+.numEtTitre p{
+	color: white;
+	font-size: 2em;
+	text-shadow: 4px 3px 3px black;
+	margin-bottom: 0;
+}
+.numEtTitre h1{
+	color: white;
+	font-size: 1.5em;
+	text-shadow: 2px 2px 3px black;
+}
+
+/**********  Menu  **********/
+#containerMenu div nav ul{
+	display: inline-flex;
+	text-align: center;
+	margin-bottom: 0;
+	width:100%;
+}
+.pMenu{
+	color: black;
+	font-size: 0.6em;
+}
+.titreHP{
+	font-family: 'harryp',sans-serif;
+	margin-left: 16%;
+	margin-bottom: 1%;
+	padding-top: 4%;
+}
+/**********  Section  **********/
+hr{
+	width: 90%;
+	margin: 3% auto;
+}
+
+.PoliceHp{
+	font-family: "harryp", sans-serif;
+}
+.logo{
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 10% 0;
+}
+.logo1{
+	background-image: url(../img/reliques.png);
+}
+
+.logo2{
+	background-image: url(../img/eclairs.png);
+}
+.logo3{
+	background-image: url(../img/lunettes.png);
+}
+.logo4{
+	background-image: url(../img/lettre.png);
+}
+
+.spaceLigne{
+	line-height: normal;
+}
+.fndPart{
+	background-color: #F2F2F2;
+	border-top: 0.5px solid #adabab;
+	border-bottom: 0.5px solid #adabab;
+}
+/**********  Footer  **********/
+
+/********** Petit media**********/
+@media screen and (max-width: 479px) {
+	.iconRsx{
+		position: absolute;
+		width: 25%;
+		display: inline-flex;
+		top: 3%;
+		left: 2%;
+	}
+	.logoHP{
+		position: absolute;
+		top: 2%;
+		right: 0;
+		width: 50%;
+	}
+	h2{
+		font-size: 1.8em;
+	}
+	.logoPart{
+		width: 100%;
+		height: 50px;
+	}
+
+}
+/********** Petit-moyen media**********/
+@media screen and (max-width: 480px) and (max-width: 959px) {
+
+}
+/********** laptop media**********/
+@media screen and (max-width: 960px) and (max-width: 1280px) {
+
+}
+/********** desktop media**********/
+@media screen and (max-width: 1281px) {
+
+}
